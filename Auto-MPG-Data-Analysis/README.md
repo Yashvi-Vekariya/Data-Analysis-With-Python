@@ -1,15 +1,3 @@
-# Auto-MPG Dataset Analysis
-
-| Contents 											 	   	|
-| -------- 											 	   	|
-| [Dataset Description](#Dataset-Description)			   	|
-| [Columns Descreption](#Columns-Descreption) 		   		|
-| [Data Wrangling](#Data-Wrangling)					   		|
-| [Data Cleaning](#Data-Cleaning)						   	|
-| [Data Visualization](#Data-Visualization)					|
-| [Conclusion](#Conclusion)									|
-| [Built with](#Built-with)							   		|
-
 ## Dataset Description: 
 The MPG dataset is technical spec of cars originaly provided from [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/auto+mpg) and can be found on Kaggle [here](https://www.kaggle.com/uciml/autompg-dataset). 
 The data concerns city-cycle fuel consumption in miles per gallon to be analyzed in terms of 3 multivalued discrete and 5 continuous attributes.
@@ -47,13 +35,3 @@ These are derived conclusions after comleting our data visualisation phase.
 4. Althogh `USA` has the biggest count of produced cars, its cars has relatively very low `mpg`, thus the highest possible `weight` compared to `Asia` and `Europe`
 5. `Asia` is the leading contry in producing cars with high `mpg` with a mean close to 30, and it produces the lightest cars
 6. Wa can spot a negative correlation between `acceleration` and `horepower`, this means that it has a positive one with `mpg`.
-
-## Built with:
-| Tools 		|
-| -------- 		|
-| JupyterLab	|
-| Python3	   	|
-| Pandas		|
-| Numpy			|
-| Matplotlib	|
-| Seaborn		|
